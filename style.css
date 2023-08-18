@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Montserrat:wght@400;600&display=swap');
+ 
+:root {
+    --fonte-titulo: 'Barriecito', cursive;
+    --fonte-texto: 'Montserrat', sans-serif;
+    --cor-turquesa: #45CFDD;
+    --cor-pink: rgb(224, 34, 161);
+    --cor-de-fundo: antiquewhite;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #91cde9 0%, #16719b 100%);
+  background-repeat: no-repeat;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 30px;
+    background-color: var(--cor-de-fundo);
+}
+
+.titulo {
+    color: var(--cor-pink);
+    font-size: 2.5em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-links {
+    margin-right: 40px;
+    font-size: 1.8em;
+    font-weight: 600;
+    font-family: var(--fonte-texto);
+    color: #16719b;
+}
+
+.menu-links:hover {
+    transition: 0.6s;
+    font-size: 2em;
+}
+
+.subtitulo {
+    font-size: 2em;
+    font-family: var(--fonte-titulo);
+    margin-top: 40px;
+    color: rgb(224, 34, 161);
+}
+
+.jogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 3%;
+}
+
+.container-1 {
+    width: 60%;
+    height: 400px;
+    background-color: rgb(250, 229, 222);
+    border-radius: 40px; 
+}
+
+.container-2 {
+    width: 60%;
+    height: 450px;
+    background-color: rgb(250, 229, 222);
+    border-radius: 40px;
+}
+
+.container-3 {
+    width: 60%;
+    height: 800px;
+    background-color: rgb(250, 229, 222);
+    border-radius: 40px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    
+}
+
+.lado1 {
+    background-image: url(dado-donuts-01.png);
+
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+
+}
+
+.lado2 {
+    background-image: url(dado-donuts-02.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.lado3 {
+    background-image: url(dado-donuts-03.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.lado4 {
+    background-image: url(dado-donuts-04.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.lado5 {
+    background-image: url(dado-donuts-05.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+
+}
+
+.lado6 {
+    background-image: url(dado-donuts-06.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+
+.botao {
+    padding: 10px;
+    width: 20%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #16719b;
+    font-family: var(--fonte-texto);
+    background-color: rgb(76, 180, 194);
+}
+
+.botao:active {
+    transform: scale(0.96);
+    font-weight: bold;
+    background-color: rgb(52, 149, 161);
+}
+
+.container-caca-niquel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tabelinha {
+    width: 360px;
+    height: 360px;
+    border: 1px solid palevioletred;
+}
+
+.container-velha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#dado {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.dados {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.texto {
+    font-family: var(--fonte-texto);
+    font-size: 2em;
+    font-weight: bold;
+    color: #16719b;
+    text-align: center;
+}

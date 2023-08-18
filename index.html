@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Joguinhos da Naomi</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    
+    <header class="cabecalho">
+                <h1 class="titulo">Joguinhos da Naomi</h1>
+                <ul class="menu">
+                    <li><a class="menu-links" href="#joguinho1">Jogo 1</a></li>
+                    <li><a class="menu-links" href="#joguinho2">Jogo 2</a></li>
+                    <li><a class="menu-links" href="#joguinho3">Jogo 3</a></li>
+                </ul>
+    </header>
+
+    <section class="jogos">
+        <div class="container-1">
+            <section id="joguinho1" class="container">
+                <h2 class="subtitulo">Ex.1 - Você tem dado em casa?</h2>
+                <div id="dado" class="div-dado"></div>
+                <button class="botao" onclick="jogarDadoex1()">Jogar dado</button>
+            </section>
+        </div>
+        <div class="container-2">
+            <section id="joguinho2" class="container">
+                <h2 class="subtitulo">Ex.2 - Caça niquel da Pati</h2>
+                <section class="dados">
+                    <div id="dadoo1" class="div-dado"></div>
+                    <div id="dadoo2" class="div-dado"></div>
+                    <div id="dadoo3" class="div-dado"></div>
+                </section>
+                <button class="botao" onclick="cacaNiquel()">Jogar</button>
+                <p class="texto" id="resultadoNiquel"> </p>
+        </div>
+        <div class="container-3">
+         
+            <section id="joguinho3" class="container">
+                <h2 class="subtitulo">Ex.3 - Jogo da Velha</h2>
+        
+                <table class="tabelinha">
+                    <tr>
+                        <td id="dado1"></td>
+                        <td id="dado2"></td>
+                        <td id="dado3"></td>
+                    </tr>
+                    <tr>
+                        <td id="dado4"></td>
+                        <td id="dado5"></td>
+                        <td id="dado6"></td>
+                    </tr>
+                    <tr>
+                        <td id="dado7"></td>
+                        <td id="dado8"></td>
+                        <td id="dado9"></td>
+                    </tr>
+                </table>
+        
+                    <button class="botao" onclick="jogarDado()">Jogar</button>
+                    <button class="botao" onclick="jogarDadoLoop()">Jogar</button>
+
+        
+                <section>
+                    <p class="texto" id="resultado"> </p>
+                    <p class="texto" id="acertos"> </p>
+                    <p class="texto" id="tentativa"> </p>
+                </section>
+            </section>
+        </div>
+    </section>
+
+
+    <script src='index.js'></script>
+</body>
+</html>
